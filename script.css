@@ -1,0 +1,67 @@
+.playground {
+  position: relative;
+  width: 100%;
+  height: 690px;
+  background-image: url(images/hintergrund.svg);
+  background-size: contain;
+}
+.player {
+  position: absolute;
+  width: 150px;
+  height: auto;
+}
+
+.enemy1 {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  background-image: url(images/meteor.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.punkte {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.punktscore {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  background-color: black;
+}
+
+.endscreen {
+  display: none;
+}
+.gameoverbox {
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 80px;
+  flex-direction: column;
+}
+.overoverbox {
+  height: 690px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.retry {
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+}
